@@ -18,3 +18,14 @@ cfg.set('csdn.net','user','sulingjun')
 cfg.add_section('test') ---增加节段
 cfg.set('test','city','sz')
 
+删：
+cfg.remove_section('test')  --删除section
+cfg.remove_option('test','city') --删除一个配置项
+
+
+#2，读取json
+with open('abc.json','r') as f:
+    load_res=json.load(f)
+
+#3.yaml
+yaml.load
