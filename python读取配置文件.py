@@ -14,3 +14,7 @@ cfg.sections() ----['csdn.net','51cto']
 cfg.get('csdn.net','user')    ---suxiaojin
 改
 cfg.set('csdn.net','user','sulingjun')
+增：
+cfg.add_section('test') ---增加节段
+cfg.set('test','city','sz')
+
