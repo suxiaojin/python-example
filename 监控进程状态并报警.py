@@ -11,4 +11,3 @@ if isinstance(checkprocess('java'),int):
 
 else:
     print('进程不存在')
-
