@@ -84,3 +84,12 @@ print(l)
 #记数，某个值出现的次数
 import re
 print(len(re.findall('python','python is a programing language.python is python')))
+
+#序列解包
+s={'name':'sxj','age':18,'job':'manage'}
+a,b,c=s
+print(a,b,c)
+a,b,c=s.items()
+print(b)
+k,v,a=s.values()
+print(a)
