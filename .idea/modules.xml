@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../paramiko_get_host_info/.idea/paramiko_get_host_info.iml" filepath="$PROJECT_DIR$/../paramiko_get_host_info/.idea/paramiko_get_host_info.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python-example.iml" filepath="$PROJECT_DIR$/.idea/python-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python-dev/.idea/python运维.iml" filepath="$PROJECT_DIR$/../python-dev/.idea/python运维.iml" />
     </modules>
   </component>
 </project>
